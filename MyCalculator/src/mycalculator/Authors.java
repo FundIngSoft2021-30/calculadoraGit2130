@@ -17,4 +17,6 @@ public class Authors {
 
     public static final String JPSG = "Juan Pablo Sanchez Gaitan";
 
+    public static final String NDVO = "Nicolas Daniel Vargas Ortiz";
+
 }

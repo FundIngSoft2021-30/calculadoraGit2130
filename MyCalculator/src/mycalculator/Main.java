@@ -27,6 +27,7 @@ public class Main {
 
         // Juan Pablo Sanchez Gaitan -> JPSG
         pruebaJPSG();
+        pruebaNDVO();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -40,6 +41,20 @@ public class Main {
         System.out.println("Resta: " + a + " - " + b + " = " + jps.substract(a, b));
         System.out.println("Multiplicacion: " + a + " * " + b + " = " + jps.multiply(a, b));
         System.out.println("Division: " + a + " / " + b + " = " + jps.divide(a, b));
+    }
+
+    //Funcion de Nicolas Vargas
+    public static void pruebaNDVO() {
+
+        CalculadoraNDVO Prueba5 = new CalculadoraNDVO();
+        double a=24;
+        double b=6;
+
+        System.out.println("\n"+Prueba5.about());
+        System.out.println(a + " + " + b + " = " + Prueba5.add(a, b));
+        System.out.println(a + " - " + b + " = " + Prueba5.substract(a, b));
+        System.out.println(a + " * " + b + " = " + Prueba5.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + Prueba5.divide(a, b));
     }
 
 }
