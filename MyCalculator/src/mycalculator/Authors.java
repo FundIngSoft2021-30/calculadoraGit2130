@@ -19,4 +19,6 @@ public class Authors {
 
     public static final String NDVO = "Nicolas Daniel Vargas Ortiz";
 
+    public static final String JMRP = "Javier Mauricio Ramírez Portillo";
+
 }

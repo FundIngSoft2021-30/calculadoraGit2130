@@ -1,6 +1,7 @@
 package mycalculator;
 
 public class CalculadoraNDVO implements ICalculator{
+    
     @Override
     public double add(double a, double b) { return a + b;}
 

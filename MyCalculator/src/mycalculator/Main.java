@@ -28,6 +28,7 @@ public class Main {
         // Juan Pablo Sanchez Gaitan -> JPSG
         pruebaJPSG();
         pruebaNDVO();
+        testJMRP(); 
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -56,5 +57,19 @@ public class Main {
         System.out.println(a + " * " + b + " = " + Prueba5.multiply(a, b));
         System.out.println(a + " / " + b + " = " + Prueba5.divide(a, b));
     }
+
+    //Funcion de Javier Ramirez
+    public static void testJMRP(){
+        CalculatorJMRP calc = new CalculatorJMRP();
+        double a = 20;
+        double b = 15;
+
+        System.out.println(calc.about());
+        System.out.println("SUMA -> " +a+ " + " +b+ " = " + calc.add(a,b));
+        System.out.println("RESTA -> " +a+ " - " +b+ " = " + calc.substract(a,b));
+        System.out.println("MULTIPLICACION -> " +a+ " * " +b+ " = " + calc.multiply(a,b));
+        System.out.println("DIVISION -> " +a+ " / " +b+ " = " + calc.divide(a,b));
+    }
+
 
 }
