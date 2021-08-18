@@ -21,4 +21,6 @@ public class Authors {
 
     public static final String JMRP = "Javier Mauricio Ramírez Portillo";
 
+    public static final String ASL = "Alejandro Sacristán Leal";
+
 }

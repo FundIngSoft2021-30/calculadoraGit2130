@@ -29,6 +29,9 @@ public class Main {
         pruebaJPSG();
         pruebaNDVO();
         testJMRP(); 
+        
+        // Funcion de Alejandro Sacristan Leal
+        pruebaASL() 
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -69,6 +72,19 @@ public class Main {
         System.out.println("RESTA -> " +a+ " - " +b+ " = " + calc.substract(a,b));
         System.out.println("MULTIPLICACION -> " +a+ " * " +b+ " = " + calc.multiply(a,b));
         System.out.println("DIVISION -> " +a+ " / " +b+ " = " + calc.divide(a,b));
+    }
+
+     // Funcion de Alejandro Sacristan Leal
+    public static void pruebaASL() {
+
+        CalculadoraASL ASL = new CalculadoraASL();
+        double a = 50;
+        double b = 25;
+        System.out.println(ASL.about());
+        System.out.println("Suma: " + a + " + " + b + " = " + ASL.add(a, b));
+        System.out.println("Resta: " + a + " - " + b + " = " + ASL.substract(a, b));
+        System.out.println("Multiplicacion: " + a + " * " + b + " = " + ASL.multiply(a, b));
+        System.out.println("Division: " + a + " / " + b + " = " + ASL.divide(a, b));
     }
 
 
