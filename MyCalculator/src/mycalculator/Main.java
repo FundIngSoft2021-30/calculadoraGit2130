@@ -15,7 +15,6 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    	
 
         CalculatorNEBO calculatorNEBO = new CalculatorNEBO();
         // Create calculator implementation
@@ -29,13 +28,15 @@ public class Main {
         // Juan Pablo Sanchez Gaitan -> JPSG
         pruebaJPSG();
         pruebaNDVO();
-        testJMRP(); 
-        //Funcion de Alejandro Sacristan Leal
-        pruebaASL(); 
-        //Función de David Palacios
-    	testDEPG();
-        //Función de Steban Vanegas
+        testJMRP();
+        // Funcion de Alejandro Sacristan Leal
+        pruebaASL();
+        // Función de David Palacios
+        testDEPG();
+        // Función de Steban Vanegas
         testSFVC();
+        // Metodo Juan Andres Mejia
+        pruebasCalculadoraJAMR();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -51,34 +52,34 @@ public class Main {
         System.out.println("Division: " + a + " / " + b + " = " + jps.divide(a, b));
     }
 
-    //Funcion de Nicolas Vargas
+    // Funcion de Nicolas Vargas
     public static void pruebaNDVO() {
 
         CalculadoraNDVO Prueba5 = new CalculadoraNDVO();
-        double a=24;
-        double b=6;
+        double a = 24;
+        double b = 6;
 
-        System.out.println("\n"+Prueba5.about());
+        System.out.println("\n" + Prueba5.about());
         System.out.println(a + " + " + b + " = " + Prueba5.add(a, b));
         System.out.println(a + " - " + b + " = " + Prueba5.substract(a, b));
         System.out.println(a + " * " + b + " = " + Prueba5.multiply(a, b));
         System.out.println(a + " / " + b + " = " + Prueba5.divide(a, b));
     }
 
-    //Funcion de Javier Ramirez
-    public static void testJMRP(){
+    // Funcion de Javier Ramirez
+    public static void testJMRP() {
         CalculatorJMRP calc = new CalculatorJMRP();
         double a = 20;
         double b = 15;
 
         System.out.println(calc.about());
-        System.out.println("SUMA -> " +a+ " + " +b+ " = " + calc.add(a,b));
-        System.out.println("RESTA -> " +a+ " - " +b+ " = " + calc.substract(a,b));
-        System.out.println("MULTIPLICACION -> " +a+ " * " +b+ " = " + calc.multiply(a,b));
-        System.out.println("DIVISION -> " +a+ " / " +b+ " = " + calc.divide(a,b));
+        System.out.println("SUMA -> " + a + " + " + b + " = " + calc.add(a, b));
+        System.out.println("RESTA -> " + a + " - " + b + " = " + calc.substract(a, b));
+        System.out.println("MULTIPLICACION -> " + a + " * " + b + " = " + calc.multiply(a, b));
+        System.out.println("DIVISION -> " + a + " / " + b + " = " + calc.divide(a, b));
     }
 
-     // Funcion de Alejandro Sacristan Leal
+    // Funcion de Alejandro Sacristan Leal
     public static void pruebaASL() {
 
         CalculadoraASL ASL = new CalculadoraASL();
@@ -90,30 +91,42 @@ public class Main {
         System.out.println("Multiplicacion: " + a + " * " + b + " = " + ASL.multiply(a, b));
         System.out.println("Division: " + a + " / " + b + " = " + ASL.divide(a, b));
     }
-    
-    //Funcion de David Palacios
-    public static void testDEPG(){
+
+    // Funcion de David Palacios
+    public static void testDEPG() {
         CalculatorDEPG calc = new CalculatorDEPG();
         double a = 10;
         double b = 10;
 
         System.out.println(calc.about());
-        System.out.println("Suma:  " +a+ " + " +b+ " = " + calc.add(a,b));
-        System.out.println("Resta: " +a+ " - " +b+ " = " + calc.substract(a,b));
-        System.out.println("Multiplicación: " +a+ " * " +b+ " = " + calc.multiply(a,b));
-        System.out.println("DIvisión: " +a+ " / " +b+ " = " + calc.divide(a,b));
+        System.out.println("Suma:  " + a + " + " + b + " = " + calc.add(a, b));
+        System.out.println("Resta: " + a + " - " + b + " = " + calc.substract(a, b));
+        System.out.println("Multiplicación: " + a + " * " + b + " = " + calc.multiply(a, b));
+        System.out.println("DIvisión: " + a + " / " + b + " = " + calc.divide(a, b));
     }
-// Funcion de Steban Felipe Vanegas Camacho
-public static void testSFVC() {
 
-    CalculatorSFVC calculadora = new CalculatorSFVC();
-    double a = 10;
-    double b = 2;
-    System.out.println(calculadora.about());
-    System.out.println("Resultado Suma: " + a + " + " + b + " = " + calculadora.add(a, b));
-    System.out.println("Resultado Resta: " + a + " - " + b + " = " + calculadora.substract(a, b));
-    System.out.println("Resultado Multiplicacion: " + a + " * " + b + " = " + calculadora.multiply(a, b));
-    System.out.println("Resultado Division: " + a + " / " + b + " = " + calculadora.divide(a, b));
-}
+    // Funcion de Steban Felipe Vanegas Camacho
+    public static void testSFVC() {
+
+        CalculatorSFVC calculadora = new CalculatorSFVC();
+        double a = 10;
+        double b = 2;
+        System.out.println(calculadora.about());
+        System.out.println("Resultado Suma: " + a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println("Resultado Resta: " + a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println("Resultado Multiplicacion: " + a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println("Resultado Division: " + a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+
+    // Metodo Juan Andres Mejia
+    public static void pruebasCalculadoraJAMR() {
+        double a = 25, b = 5;
+        CalculadoraJAMR calculadora = new CalculadoraJAMR();
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "=" + calculadora.add(a, b));
+        System.out.println(a + "-" + b + "=" + calculadora.substract(a, b));
+        System.out.println(a + "*" + b + "=" + calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "=" + calculadora.divide(a, b));
+    }
 
 }

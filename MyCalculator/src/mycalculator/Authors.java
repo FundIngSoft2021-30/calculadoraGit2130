@@ -22,8 +22,10 @@ public class Authors {
     public static final String JMRP = "Javier Mauricio Ramírez Portillo";
 
     public static final String ASL = "Alejandro Sacristán Leal";
-    
+
     public static final String DEPG = "David Enrique Palacios García";
-    
+
     public static final String SFVC = "Steban Felipe Vanegas Camacho";
+
+    public static final String JAMR = "Juan Andres Mejia Rocha";
 }
