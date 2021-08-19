@@ -30,13 +30,12 @@ public class Main {
         pruebaJPSG();
         pruebaNDVO();
         testJMRP(); 
-        
         //Funcion de Alejandro Sacristan Leal
         pruebaASL(); 
-        
-        
         //Función de David Palacios
     	testDEPG();
+        //Función de Steban Vanegas
+        testSFVC();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -104,6 +103,17 @@ public class Main {
         System.out.println("Multiplicación: " +a+ " * " +b+ " = " + calc.multiply(a,b));
         System.out.println("DIvisión: " +a+ " / " +b+ " = " + calc.divide(a,b));
     }
+// Funcion de Steban Felipe Vanegas Camacho
+public static void testSFVC() {
 
+    CalculatorSFVC calculadora = new CalculatorSFVC();
+    double a = 10;
+    double b = 2;
+    System.out.println(calculadora.about());
+    System.out.println("Resultado Suma: " + a + " + " + b + " = " + calculadora.add(a, b));
+    System.out.println("Resultado Resta: " + a + " - " + b + " = " + calculadora.substract(a, b));
+    System.out.println("Resultado Multiplicacion: " + a + " * " + b + " = " + calculadora.multiply(a, b));
+    System.out.println("Resultado Division: " + a + " / " + b + " = " + calculadora.divide(a, b));
+}
 
 }
