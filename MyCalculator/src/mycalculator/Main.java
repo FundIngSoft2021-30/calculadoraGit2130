@@ -15,6 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	
 
         CalculatorNEBO calculatorNEBO = new CalculatorNEBO();
         // Create calculator implementation
@@ -30,8 +31,12 @@ public class Main {
         pruebaNDVO();
         testJMRP(); 
         
-        // Funcion de Alejandro Sacristan Leal
-        pruebaASL() 
+        //Funcion de Alejandro Sacristan Leal
+        pruebaASL(); 
+        
+        
+        //Función de David Palacios
+    	testDEPG();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -85,6 +90,19 @@ public class Main {
         System.out.println("Resta: " + a + " - " + b + " = " + ASL.substract(a, b));
         System.out.println("Multiplicacion: " + a + " * " + b + " = " + ASL.multiply(a, b));
         System.out.println("Division: " + a + " / " + b + " = " + ASL.divide(a, b));
+    }
+    
+    //Funcion de David Palacios
+    public static void testDEPG(){
+        CalculatorDEPG calc = new CalculatorDEPG();
+        double a = 10;
+        double b = 10;
+
+        System.out.println(calc.about());
+        System.out.println("Suma:  " +a+ " + " +b+ " = " + calc.add(a,b));
+        System.out.println("Resta: " +a+ " - " +b+ " = " + calc.substract(a,b));
+        System.out.println("Multiplicación: " +a+ " * " +b+ " = " + calc.multiply(a,b));
+        System.out.println("DIvisión: " +a+ " / " +b+ " = " + calc.divide(a,b));
     }
 
 
