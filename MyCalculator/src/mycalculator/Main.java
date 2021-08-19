@@ -37,6 +37,8 @@ public class Main {
         testSFVC();
         // Metodo Juan Andres Mejia
         pruebasCalculadoraJAMR();
+        //Funcion de Fabian Andres Zapata Bonivento
+        pruebaFAZB();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -129,4 +131,14 @@ public class Main {
         System.out.println(a + "/" + b + "=" + calculadora.divide(a, b));
     }
 
+    //Funcion Fabian Zapata Bonivento
+    public static void pruebaFAZB(){
+        CalculatorFAZB calcu= new CalculatorFAZB();
+        double a=9;
+        double b=3;
+        System.out.println("La suma es:" +a+"+"+b+"="+calcu.add(a,b));
+        System.out.println("La resta es:"+a+"-"+b+"="+calcu.substract(a, b));
+        System.out.println("La multiplicacion es:"+a+"*"+b+"="+calcu.multiply(a, b));
+        System.out.println("La division es:"+a+"/"+b+"="+calcu.divide(a, b));
+    }
 }
