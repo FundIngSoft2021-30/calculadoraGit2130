@@ -60,6 +60,8 @@ public class Main {
         probandoJFZO();
         //Jorge Luis Esposito Albornoz
         pruebaJLEA();
+        //Maria Kamila Obregon Ortega
+        pruebaMKOO();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -218,10 +220,23 @@ public class Main {
         CalculatorJLEA jorge = new CalculatorJLEA();
         System.out.println(jorge.about());
         System.out.println("Suma: "+ jorge.add(5, 5));
-        System.out.println("Resta: "+ jorge}.substract(20, 6));
+        System.out.println("Resta: "+ jorge.substract(20, 6));
         System.out.println("Multiplicacion: "+ jorge.multiply(30, 2));
         System.out.println("Division: "+ jorge.divide(20, 4));
        }
+
+       //Maria Kamila Obregon Ortega
+    public static void pruebaMKOO() {
+        CalculadoraMKOO kami = new CalculadoraMKOO();
+        double a = 10;
+        double b = 10;
+
+        System.out.println(kami.about());
+        System.out.println("suma -> " + a + " + " + b + " = " + kami.add(a, b));
+        System.out.println("resta -> " + a + " - " + b + " = " + kami.substract(a, b));
+        System.out.println("mult -> " + a + " * " + b + " = " + kami.multiply(a, b));
+        System.out.println("div -> " + a + " / " + b + " = " + kami.divide(a, b));
+    }
 }
 
 
