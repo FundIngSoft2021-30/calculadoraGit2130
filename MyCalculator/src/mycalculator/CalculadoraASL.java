@@ -1,6 +1,6 @@
 package mycalculator;
 
-public class CalculadoraNDVO implements ICalculator{
+public class CalculadoraASL implements ICalculator{
     
     @Override
     public double add(double a, double b) { return a + b;}

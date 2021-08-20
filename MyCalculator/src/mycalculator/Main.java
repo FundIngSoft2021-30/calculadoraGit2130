@@ -17,13 +17,23 @@ public class Main {
     public static void main(String[] args) {
 
         CalculatorNEBO calculatorNEBO = new CalculatorNEBO();
-        // Create calculator implementation
+        // Create calculator implementation 
         System.out.println("Git Calculator!");
+        //Nicolas Bayona 
         System.out.println("Probando clase CalculadoraNEBO -- " + calculatorNEBO.about() + '\n' + "5+2="
                 + String.valueOf(calculatorNEBO.add(5, 2)) + '\n' + "5-2="
                 + String.valueOf(calculatorNEBO.substract(5, 2)) + '\n' + "5*2="
                 + String.valueOf(calculatorNEBO.multiply(5, 2)) + '\n' + "10/2="
                 + String.valueOf(calculatorNEBO.divide(10, 2)));
+        
+        //Abril Cano Castro
+        CalculadoraACC abril = new CalculadoraACC();
+        System.out.println(abril.about());
+        System.out.println("Suma: "+ abril.add(17, 6));
+        System.out.println("Resta: "+ abril.substract(17, 6));
+        System.out.println("Multiplicacion: "+ abril.multiply(17, 6));
+        System.out.println("Division: "+ abril.divide(17, 6));
+        
 
         // Juan Pablo Sanchez Gaitan -> JPSG
         pruebaJPSG();
