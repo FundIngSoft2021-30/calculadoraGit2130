@@ -62,6 +62,8 @@ public class Main {
         pruebaJLEA();
         //Maria Kamila Obregon Ortega
         pruebaMKOO();
+        //Luis David Montenegro Marquinez
+        pruebaLDMM();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -236,6 +238,17 @@ public class Main {
         System.out.println("resta -> " + a + " - " + b + " = " + kami.substract(a, b));
         System.out.println("mult -> " + a + " * " + b + " = " + kami.multiply(a, b));
         System.out.println("div -> " + a + " / " + b + " = " + kami.divide(a, b));
+    }
+
+    // Luis David Montenegro Marquinez
+    public static void pruebaLDMM() {
+        double a = 10, b = 13;
+        CalculadoraLDMM calculadora = new CalculadoraLDMM();
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "=" + calculadora.add(a, b));
+        System.out.println(a + "-" + b + "=" + calculadora.substract(a, b));
+        System.out.println(a + "*" + b + "=" + calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "=" + calculadora.divide(a, b));
     }
 }
 
