@@ -40,4 +40,7 @@ public class Authors {
     public static final String JSHG = "Juan Sebastian Herrera Guaitero";
     
     public static final String JFZO = "Jose Fernando Zuluaga Ortiz";
+    
+    public static final String JDAR = "Juan David Aldana Rincon";
+    
 }

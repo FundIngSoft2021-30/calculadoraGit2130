@@ -45,6 +45,8 @@ public class Main {
         testDEPG();
         // Función de Steban Vanegas
         testSFVC();
+         // Metodo Juan Andres Mejia
+        pruebasCalculadoraJDAR();
         // Metodo Juan Andres Mejia
         pruebasCalculadoraJAMR();
         //Funcion de Fabian Andres Zapata Bonivento
@@ -182,6 +184,18 @@ public class Main {
         System.out.println("\n\n");
         
     }
+    
+    // Metodo Juan David Aldana
+    public static void pruebasCalculadoraJDAR() {
+        double a = 15, b = 30;
+        CalculadoraJDAR calculadora = new CalculadoraJDAR();
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "=" + calculadora.add(a, b));
+        System.out.println(a + "-" + b + "=" + calculadora.substract(a, b));
+        System.out.println(a + "*" + b + "=" + calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "=" + calculadora.divide(a, b));
+    }
+    
 
 }
 
