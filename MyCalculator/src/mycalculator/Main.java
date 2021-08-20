@@ -49,6 +49,8 @@ public class Main {
         pruebasCalculadoraJAMR();
         //Funcion de Fabian Andres Zapata Bonivento
         pruebaFAZB();
+        //Funcion Juan Sebastian Herrera Guaitero
+        testJSHG();
     }
 
     // funcion de juan pablo sanchez gaitan
