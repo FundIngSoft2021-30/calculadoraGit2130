@@ -32,4 +32,6 @@ public class Authors {
     public static final String FAZB = "Fabian Andres Zapata Bonivento";
     
     public static final String ACC = "Abril Cano Castro";
+    
+    public static final String SSS = "Samuel Sebastian Suarez Lopez";
 }
