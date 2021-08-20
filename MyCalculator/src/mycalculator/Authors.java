@@ -36,4 +36,6 @@ public class Authors {
     public static final String SSS = "Samuel Sebastian Suarez Lopez";
     
     public static final String SBP = "Santiago Burbano Puin";
+
+	public static final String JSHG="Juan Sebastian Herrera Guaitero"
 }
