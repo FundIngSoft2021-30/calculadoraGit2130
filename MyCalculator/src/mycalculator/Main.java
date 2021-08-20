@@ -151,4 +151,16 @@ public class Main {
         System.out.println("La multiplicacion es:"+a+"*"+b+"="+calcu.multiply(a, b));
         System.out.println("La division es:"+a+"/"+b+"="+calcu.divide(a, b));
     }
+    //Función Juan Sebastián Herrera Guaitero
+    public static void testJSHG() {
+        CalculatorJMRP calc = new CalculatorJSHG();
+        double a = 20;
+        double b = 20;
+
+        System.out.println(calc.about());
+        System.out.println("suma -> " + a + " + " + b + " = " + calc.add(a, b));
+        System.out.println("resta -> " + a + " - " + b + " = " + calc.substract(a, b));
+        System.out.println("mult -> " + a + " * " + b + " = " + calc.multiply(a, b));
+        System.out.println("div -> " + a + " / " + b + " = " + calc.divide(a, b));
+    }
 }
