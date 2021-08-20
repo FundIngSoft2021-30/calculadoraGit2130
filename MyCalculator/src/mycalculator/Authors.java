@@ -43,4 +43,5 @@ public class Authors {
     
     public static final String JDAR = "Juan David Aldana Rincon";
     
+    public static final String JLBC = "Johanna Lizeth Bolívar Calderon";
 }

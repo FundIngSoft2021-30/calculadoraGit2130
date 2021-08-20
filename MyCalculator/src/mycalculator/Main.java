@@ -45,8 +45,11 @@ public class Main {
         testDEPG();
         // Función de Steban Vanegas
         testSFVC();
-         // Metodo Juan Andres Mejia
+         // Metodo Juan David Aldana 
         pruebasCalculadoraJDAR();
+        //Funcion Johanna Lizeth Bolivar Calderon 
+        pruebaJLBC();
+        
         // Metodo Juan Andres Mejia
         pruebasCalculadoraJAMR();
         //Funcion de Fabian Andres Zapata Bonivento
@@ -195,7 +198,19 @@ public class Main {
         System.out.println(a + "*" + b + "=" + calculadora.multiply(a, b));
         System.out.println(a + "/" + b + "=" + calculadora.divide(a, b));
     }
-    
+    // Metodo Johanna Lizeth Bolívar Calderón
+    public static void pruebaJLBC() {
+
+        CalculadoraJLBC cal = new CalculadoraJLBC();
+        double a = 80;
+        double b = 69;
+        System.out.println(cal.about());
+        System.out.println("Suma: " + a + " + " + b + " = " + cal.add(a, b));
+        System.out.println("Resta: " + a + " - " + b + " = " + cal.substract(a, b));
+        System.out.println("Multiplicacion: " + a + " * " + b + " = " + cal.multiply(a, b));
+        System.out.println("Division: " + a + " / " + b + " = " + cal.divide(a, b));
+    }
+
 
 }
 
