@@ -58,6 +58,8 @@ public class Main {
         testJSHG();
         //Jose Fernando Zuluaga Ortiz
         probandoJFZO();
+        //Jorge Luis Esposito Albornoz
+        pruebaJLEA();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -210,8 +212,16 @@ public class Main {
         System.out.println("Multiplicacion: " + a + " * " + b + " = " + cal.multiply(a, b));
         System.out.println("Division: " + a + " / " + b + " = " + cal.divide(a, b));
     }
+        //Jorge Luis Esposito Albornoz
+       public static void pruebaJLEA() {
 
-
+        CalculatorJLEA jorge = new CalculatorJLEA();
+        System.out.println(jorge.about());
+        System.out.println("Suma: "+ jorge.add(5, 5));
+        System.out.println("Resta: "+ jorge}.substract(20, 6));
+        System.out.println("Multiplicacion: "+ jorge.multiply(30, 2));
+        System.out.println("Division: "+ jorge.divide(20, 4));
+       }
 }
 
 
