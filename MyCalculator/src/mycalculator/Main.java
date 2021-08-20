@@ -155,7 +155,7 @@ public class Main {
     }
     //Función Juan Sebastián Herrera Guaitero
     public static void testJSHG() {
-        CalculatorJMRP calc = new CalculatorJSHG();
+        CalculatorJSHG calc = new CalculatorJSHG();
         double a = 20;
         double b = 20;
 
