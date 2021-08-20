@@ -218,7 +218,7 @@ public class Main {
         CalculatorJLEA jorge = new CalculatorJLEA();
         System.out.println(jorge.about());
         System.out.println("Suma: "+ jorge.add(5, 5));
-        System.out.println("Resta: "+ jorge}.substract(20, 6));
+        System.out.println("Resta: "+ jorge.substract(20, 6));
         System.out.println("Multiplicacion: "+ jorge.multiply(30, 2));
         System.out.println("Division: "+ jorge.divide(20, 4));
        }
