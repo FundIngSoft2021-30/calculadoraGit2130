@@ -51,6 +51,8 @@ public class Main {
         pruebaFAZB();
         //Funcion Juan Sebastian Herrera Guaitero
         testJSHG();
+        //Jose Fernando Zuluaga Ortiz
+        probandoJFZO();
     }
 
     // funcion de juan pablo sanchez gaitan
@@ -155,7 +157,7 @@ public class Main {
     }
     //Función Juan Sebastián Herrera Guaitero
     public static void testJSHG() {
-        CalculatorJSHG calc = new CalculatorJSHG();
+        CalculadoraJSHG calc = new CalculadoraJSHG();
         double a = 20;
         double b = 20;
 
@@ -165,4 +167,24 @@ public class Main {
         System.out.println("mult -> " + a + " * " + b + " = " + calc.multiply(a, b));
         System.out.println("div -> " + a + " / " + b + " = " + calc.divide(a, b));
     }
+    
+    //Función Jose Fernando Zuluaga Ortiz
+    public static void probandoJFZO() {
+        CalculatorJFZO JFZ = new CalculatorJFZO();
+        
+        double a = 78;
+        double b = 49;
+        System.out.println("\n"+JFZ.about());
+        System.out.println("\nLa adicion es: " + a + " + " + b + " = " + JFZ.add(a, b));
+        System.out.println("La sustraccion es: " + a + " - " + b + " = " + JFZ.substract(a, b));
+        System.out.println("El producto es: " + a + " * " + b + " = " + JFZ.multiply(a, b));
+        System.out.println("La Division es: " + a + " / " + b + " = " + JFZ.divide(a, b));
+        System.out.println("\n\n");
+        
+    }
+
 }
+
+
+    
+
