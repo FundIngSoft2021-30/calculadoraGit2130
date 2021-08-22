@@ -51,5 +51,5 @@ public class Authors {
 
     public static final String LDMM= "Luis David Montenegro Marquinez";
 
-    public static final String CJNM="Camilo Jose Narvaez Montenegro "
+    public static final String CJNM="Camilo Jose Narvaez Montenegro ";
 }
